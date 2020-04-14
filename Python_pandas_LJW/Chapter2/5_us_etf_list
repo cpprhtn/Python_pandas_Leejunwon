@@ -20,8 +20,11 @@ for row in rows:
         etf_market = re.findall('\((.*)\|',row.text)
         etf_ticker = re.findall('NYSE Arca\|(.*)\)',row.text)
         
-        if (len(etf_ticker) > 0) & (len(etf_market) > 0):
+#        if (len(etf_ticker) > 0) & (len(etf_market) > 0):
+        #위키피디아에 새로운 데이터가 추가되어 etf_name또한 확인해줘야 된다.
+        if(len(etf_ticker) > 0) & (len(etf_market) > 0) & (len(etf_name) > 0):
             etfs[etf_ticker[0]] = [etf_market[0], etf_name[0]]
+        
             
     except AttributeError as err:
         pass
