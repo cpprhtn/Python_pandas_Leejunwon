@@ -34,16 +34,16 @@ chapter 1
 
 chapter2
 **********
-1.Csv 파일 읽기
-2.Excel 파일 읽기
-3.Json 파일 읽기
-4.웹에서 표 정보 읽기
-5.미국 ETF리스트 가져오기
-6.구글 지오코딩 위치 정보
-7.Csv 파일로 저장
-8.Json 파일로 저장
-9.Excel 파일로 저장
-10.ExcelWriter() 활용
+1. Csv 파일 읽기
+2. Excel 파일 읽기
+3. Json 파일 읽기
+4. 웹에서 표 정보 읽기
+5. 미국 ETF리스트 가져오기
+6. 구글 지오코딩 위치 정보
+7. Csv 파일로 저장
+8. Json 파일로 저장
+9. Excel 파일로 저장
+10. ExcelWriter() 활용
 
 
 
